@@ -1,0 +1,79 @@
+ {
+  	box-sizing: border-box;
+  	font-family: -apple-system, BlinkMacSystemFont, "Arial", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  	font-size: 20px;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+body {
+  	//background-color: #435165;
+	background-image: url("bg.jpg");
+	height: 500px; /* You must set a specified height */
+ 	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+  	margin: 0;
+}
+.register {
+  	width: 400px;
+  	background-color:#ffffff;
+  	margin: 100px auto;
+}
+.register h1 {
+  	text-align: center;
+  	color: black;
+  	font-size: 50px;
+	font-family: "Century Gothic";
+  	padding: 20px 0 20px 0;
+}
+.register form {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	padding-top: 20px;
+}
+.register form label {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	//width: 50px;
+ 	height: 50px;
+	border-radius: 25px;
+}
+.register form input[type="password"], .register form input[type="text"],  .register form input[type="number"] ,.register form input[type="date"], .register form input[type="email"] {
+  	width: 250px;
+  	height: 50px;
+  	border: 1px solid #dee0e4;
+	margin-bottom: 5px;
+  	border-radius: 25px;
+	font-family : "Century Gothic";
+	padding: 0 5px;
+}
+.register form input[type="submit"] {
+  	width: 100%;
+  	padding: 15px;
+  	margin-top: 20px;
+  	background-color: #3274d6;
+ 	border: 0;
+  	cursor: pointer;
+  	font-weight: bold;
+  	color: #ffffff;
+	font-family : "Century Gothic";
+  	transition: background-color 0.2s;
+}
+.register form input[type="submit"]:hover {
+	background-color: #2868c7;
+  	transition: background-color 0.2s;
+}
+.register form input[type="button"] {
+  	width: 100%;
+  	padding: 15px;
+  	margin-top: 5px;
+  	background-color: #3274d6;
+ 	border: 0;
+  	cursor: pointer;
+  	font-weight: bold;
+  	color: #ffffff;
+	font-family : "Century Gothic";
+  	transition: background-color 0.2s;
+}
