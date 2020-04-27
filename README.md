@@ -9,7 +9,6 @@ Password breach is a frequent and common phenomenon in software applications. Th
  C:\xampp\htdocs\your_folder
 
 ## How to run
-```
 * Run the Xampp server then
 * Create Database in sql database of XAMPP server with name "final" and table name "accounts" having fields : id, username,PhNo,email,password,password1,password2,password3,password4
-* go to your_folder in htdocs and go to Register on localhost and Register the account you will get to see the original password and honeywords generated for understanding purpose.   Also one string is with EBCDIC converted line. If you go to database you will see the encrypted passwords.
+* Go to your_folder in htdocs and go to Register on localhost and Register the account you will get to see the original password and honeywords generated for understanding purpose.   Also one string is with EBCDIC converted line. If you go to database you will see the encrypted passwords.
